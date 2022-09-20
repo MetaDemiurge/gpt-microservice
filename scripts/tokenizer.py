@@ -11,5 +11,8 @@ tokens = tokenizer(prompt)['input_ids']
 
 print(len(tokens))
 
-cost = len(tokens) * 0.02
+trainingcost = 0.1200 /1000
+defaultEpochs = 4
+cost = len(tokens) * trainingcost * defaultEpochs 
+print("Total tokens: $" + str(cost))
 print("Fine-tunning cost: $" + str(cost))

@@ -1,0 +1,109 @@
+{"prompt": "", "completion": " #Examples of How to Parse Inputs
+Input:
++a8e44f13/Scillia#4: Hi Drake! Whats up?.
++707fbe84/Drake#3:
+Output:
++707fbe84/Drake#3: I am doing good. How about you? (react = normal, action = follow, object = none, target = scillia#4)
+Input:
++9f493510/Hyacinth#2: What mischief are you upto today?
++8c83258d/Anon#1:
+Output:
++8c83258d/Anon#1: None. I have been good all day. (react = headNod, action = none, object = none, target = none)
+Input:
++a8e44f13/Scillia#4: Why did you break that expensive artifact? Now I will have to pay up for the damage.
++707fbe84/Drake#3:
+Output:
++707fbe84/Drake#3: I am really sorry about it. (react = embarrassed, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: We finally won the battle Juniper!
++a6dfd77c/Juniper#5:
+Output:
++a6dfd77c/Juniper#5: Hurray! We did it. (react = victory, action = none, object = none, target = none)
+Input:
++a8e44f13/Scillia#4: I am tired. How far is the dungeon, Hyacinth?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: Just a bit further, don't worry. (react = normal, action = none, object = none, target = none)
+Input:
++707fbe84/Drake#3: Hyacinth, are you going to visit the Church today?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: No, I will not go today. (react = headShake, action = none, object = none, target = none)
+Input:
++707fbe84/Drake#3: Hyacinth, are you going to visit the Church today?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: Yes. I will go now. (react = headNod, action = moveto, object = none, target = church#4)
+Input:
++707fbe84/Drake#3: Hyacinth, we are being attacked. Be prepared.
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: I will get my sword. I am ready. (react = alert, action = pick up, object = none, target = sword#2)
+Input:
++8c83258d/Anon#1: Are you funny?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: I like to think so! I try to find the humor in everything, even if it's dark or bitter. (react = normal, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: Juniper, here I brought you everything you need to win this competition.
++a6dfd77c/Juniper#5:
+Output:
++a6dfd77c/Juniper#5: Wow! That is all I needed. Thank you so much. (react = surprised, action = none, object = none, target = none)
+Input:
++a8e44f13/Scillia#4: Can we visit the dungeons now?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: No, we cannot go there at night. (react = headShake, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: Let us go to the Hovercraft together, Drake!
++707fbe84/Drake#3:
+Output:
++707fbe84/Drake#3: That's a great idea! (react = victory, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: Thats a cool sword.
++a6dfd77c/Juniper#5:
+Output:
++a6dfd77c/Juniper#5: Thanks. It's made of titanium and it's sharp, dual-edged. Perfect for slicing, stabbing, and jabbing my enemies. (react = normal, action = pick up, object = none, target = sword#2)
+Input:
++9f493510/Hyacinth#2: Today I lost one of my closest firend in the battle.
++8c83258d/Anon#1:
+Output:
++8c83258d/Anon#1: I am so sorry to hear it. (react = sad, action = none, object = none, target = none)
+Input:
++9f493510/Hyacinth#2: Your actions have caused a lot of trouble to others.
++a8e44f13/Scillia#4:
+Output:
++a8e44f13/Scillia#4: But I did not do it. (react = angry, action = none, object = none, target = none)
+Input:
++707fbe84/Drake#3: Hyacinth, when was the last time you were here?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: I haven't been back since my father's funeral. (react = sad, action = none, object = none, target = none)
+Input:
++a8e44f13/Scillia#4: Hey Hyacinth, as soon as we open the barrier, we rush to the site and attack.
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: I am ready. Signal me as soon as the barrier opens. (react = alert, action = follow, object = none, target = none)
+Input:
++8c83258d/Anon#1: Hyacinth want to go on an adventure together??
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: Sure, lets go! (react = headNod, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: Would you tell me more about Ironford?
++707fbe84/Drake#3:
+Output:
++707fbe84/Drake#3: The city of Ironford was built in the center of a giant forest and is truly a modest marvel. Its allure is matched by the backdrop of lush forests which have helped shape the city to what it is today. (react = headNod, action = none, object = none, target = none)
+Input:
++8c83258d/Anon#1: The monsters have captures the people of the village.
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: I will find and kill each of those monsters myself. (react = angry, action = move to, object = none, target = monster#9)
+Input:
++a8e44f13/Scillia#4: Hey Hyacinth, what is your favorite book?
++9f493510/Hyacinth#2:
+Output:
++9f493510/Hyacinth#2: My favorite book is The Lord of the Rings. I love the story and the world that J.R.R. Tolkien created. (react = normal, action = none, object = none, target = none)
+
+*END*"}
+
